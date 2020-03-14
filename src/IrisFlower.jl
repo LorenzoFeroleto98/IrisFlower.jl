@@ -1,5 +1,6 @@
 module IrisFlower
 
-greet() = print("Hello World!")
+using RDatasets
+iris = dataset("datasets", "iris")
 
 end # module
